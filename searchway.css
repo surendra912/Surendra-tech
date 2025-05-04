@@ -1,0 +1,135 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(slide1.jpg);
+    background-repeat: no-repeat;
+
+
+
+    
+}
+nav{
+
+    display: flex;
+    word-spacing: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 227, 230);
+    box-shadow: 0 0 0 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav,a{
+margin-top: 5px;
+    color: black;
+    padding:  5px;
+    
+}
+button{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+p{
+    margin-left: 380px;
+    margin-top: 200px;
+    font-size: 40px;
+    font-style:initial;
+    color: rgb(183, 187, 190);
+}
+.sea{
+    color: black;
+    font-size: 50px;
+    margin-left: 320px;
+    margin-top: -20px;
+    word-spacing: 10px;
+
+}
+.FAS{
+    color: black;
+    margin-left: 380px;
+    margin-top: -60px;
+    font-size: 80px;
+    word-spacing: 10px;
+    
+}
+
+#CATEGORIES{
+    margin-top: 550px;
+    background-color: grey;
+
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+#PRODUCTS{
+    box-shadow: 0 0 0 20px;
+    background-color:  #f9f9f9;
+}
+h3{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.products-container{
+    justify-content: space-around;
+    display: flex;
+    grid-template-columns: repeat(auto fill, minmax(250px,1fx));
+    gap: 60px;
+    margin-top: 40px;
+    
+
+
+}
+.product-img{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px;
+    margin-left: 70px;
+
+}
+.product-img:hover{
+    transform: translateY(-5px);
+}
+img{
+    object-fit: contain;
+    margin-left: 0px;
+}
+.product-title{
+    text-align: center;
+    font-size: 15px;
+}
+.product-prize{
+    text-align: center;
+    color: green;
+    font-size: 15px;
+}
+.buy-button{
+    background-color: rgb(44, 152, 224);
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 50%;
+}
+.buy-button:hover{
+    background-color:rgb(60, 123, 206) ;
+}
+
